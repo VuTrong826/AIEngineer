@@ -29,7 +29,7 @@ def main():
     review = "Giao hàng siêu nhanh, đóng gói đẹp, nhưng pin hơi yếu."
     result = pydantic_output(review)
     print(result.model_dump_json(indent =2))
-    print(result.rating)
-
+    
 if __name__ == "__main__":
     main()
+    
