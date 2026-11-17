@@ -1,3 +1,4 @@
+#Schema - enforced JSON with Ollama SDK
 import ollama
 import json
 
